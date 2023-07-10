@@ -5,5 +5,5 @@ module.exports = {
             uri: "mongodb://localhost:27017/punithtask"
         }
     },
-    basePath: '/policy-registration/api/'
+    basePath: '/insurance-app/api/'
 }
