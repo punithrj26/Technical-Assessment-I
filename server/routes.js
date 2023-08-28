@@ -2,9 +2,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.use('/user-details', require('./apis/userDetails/index'));
-router.use('/account-details', require('./apis/accountDetails/index'));
-router.use('/policy-details', require('./apis/policyDetails/index'));
-router.use("/upload-data", require("./apis/uploadData/index"));
+router.use('/organisation-details', require('./apis/organisationDetails/index'));
+router.use('/product-details', require('./apis/productDetails/index'));
 
 module.exports = router;

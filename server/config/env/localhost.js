@@ -1,9 +1,9 @@
 module.exports = { 
-    port: 4000,
+    port: 3500,
     db: {
         mongo: { 
-            uri: "mongodb://localhost:27017/punithtask"
+            uri: "mongodb://localhost:27017/ondc-seller"
         }
     },
-    basePath: '/insurance-app/api/'
+    basePath: '/ondc-seller-app/api/'
 }
